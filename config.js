@@ -8,7 +8,7 @@ var map = new mapboxgl.Map({
   style: 'mapbox://styles/saschu/cknrwdky510at17lfwce3gwh8',
   center: [-119.4179, 36.7783],
   maxZoom: 16,
-  minZoom: 1,
+  minZoom: 0,
   zoom: 4
 });
 
@@ -289,7 +289,7 @@ var locations = [
   zoom: 10
   }
   },{
-  'title': 'Alameda, CA (again)',
+  'title': 'Alameda, CA (yet again)',
   'description':'U.S. Coast Guard',
   'camera': {
   center: [-122.23795273588348, 37.763052282498],
@@ -302,7 +302,7 @@ var locations = [
   'camera': {
   center: [-122.29680494749647, 37.888853276272],
   // bearing: 28.4,
-  zoom: 12
+  zoom: 14
   }
   },{
   'title': 'El Cerrito, CA',
@@ -310,9 +310,10 @@ var locations = [
   'camera': {
   center: [-122.30439093544258, 37.917206825589],
   bearing: 180,
-  zoom: 10
+  zoom: 12
   }
-  },{
+  },
+  {
   'title': 'Shoreline, WA',
   'description':'U.S. Coast Guard',
   'camera': {
@@ -334,7 +335,7 @@ var locations = [
   'camera': {
   center: [-122.46266, 47.24504],
   // bearing: 28.4,
-  // pitch: 50,
+  pitch: 0,
   zoom: 11
   }
   },
