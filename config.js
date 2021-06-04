@@ -310,7 +310,7 @@ var locations = [
   'camera': {
   center: [-122.30439093544258, 37.917206825589],
   bearing: 180,
-  zoom: 12
+  zoom: 10
   }
   },{
   'title': 'Shoreline, WA',
